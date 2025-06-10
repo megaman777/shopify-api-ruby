@@ -12,7 +12,7 @@ group :development do
   gem "rake"
   gem "rubocop"
   gem "rubocop-shopify"
-  gem "rubocop-sorbet"
+  gem "rubocop-sorbet", ">= 0.10.2"
   gem "sorbet"
   gem "tapioca"
 end
