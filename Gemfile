@@ -11,15 +11,15 @@ end
 group :development do
   gem "rake"
   gem "rubocop"
-  gem "rubocop-shopify"
+  gem "rubocop-shopify", ">= 2.11.0"
   gem "rubocop-sorbet"
   gem "sorbet"
-  gem "tapioca"
+  gem "tapioca", ">= 0.14.0"
 end
 
 group :test do
   gem "minitest"
   gem "fakefs", require: false
-  gem "webmock"
+  gem "webmock", ">= 3.15.1"
   gem "mocha"
 end
