@@ -14,7 +14,7 @@ group :development do
   gem "rubocop-shopify"
   gem "rubocop-sorbet"
   gem "sorbet"
-  gem "tapioca"
+  gem "tapioca", ">= 0.14.0"
 end
 
 group :test do
