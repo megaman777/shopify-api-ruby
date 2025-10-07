@@ -10,9 +10,9 @@ end
 
 group :development do
   gem "rake"
-  gem "rubocop"
-  gem "rubocop-shopify"
-  gem "rubocop-sorbet"
+  gem "rubocop", ">= 1.66.0"
+  gem "rubocop-shopify", ">= 2.11.0"
+  gem "rubocop-sorbet", ">= 0.7.0"
   gem "sorbet"
   gem "tapioca"
 end
